@@ -9,7 +9,7 @@ html {
 .nav {
   position: fixed;
 }
-/* #fcbe96 */
+/* #fcbe96 ffeadd */
 
 /* Syne Wide Medium */
 /* .syne-wide {
@@ -43,7 +43,7 @@ html {
 }
 
 .termina-demi {
-  font-family: termina,sans-serif;
+  font-family: rhode-extended,sans-serif;
   font-weight: 600;
   font-style: normal;
 }
@@ -78,4 +78,55 @@ a:hover {
 
 h1 {
   color: #3131ff;
+}
+
+.font-white {
+  color: #fff;
+}
+
+.font-black {
+  color: #000;
+}
+
+.bg-yellow {
+  background-color: #f8ffab;
+  color: #000;
+}
+
+.scroll-rtl {
+  animation-name: running-footer1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+.scroll-ltr {
+  animation-name: running-footer2;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes running-footer1 {
+
+  0% {
+      transform: translateX(-20%);
+  }
+  100% {
+        transform: translateX(100%);
+  }
+
+}
+
+@keyframes running-footer2 {
+
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-20%);
+  }
+
 }

@@ -1,0 +1,81 @@
+html {
+  background-color: #ffeadd;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.nav {
+  position: fixed;
+}
+/* #fcbe96 */
+
+/* Syne Wide Medium */
+/* .syne-wide {
+  font-family: titling-gothic-fb-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.syne-wide-regular {
+  font-family: titling-gothic-fb-wide, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.freight-text {
+  font-family: freight-text-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+.termina-regular {
+  font-family: termina,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.termina-heavy {
+  font-family: termina,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.termina-demi {
+  font-family: termina,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.freight-big {
+  font-family: kepler-std-subhead,serif;
+  /* font-family: plantin, sans-serif; */
+  font-weight: 400;
+  font-style: normal;
+}
+
+.plantin-italic {
+  font-family: plantin, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #3131ff;
+}
+
+a:hover {
+  cursor: url(finger.cur), auto;
+}
+
+.nav {
+  background-color: #fff;
+  border: 2px #3131ff solid;
+  border-radius: 48px;
+}
+
+h1 {
+  color: #3131ff;
+}

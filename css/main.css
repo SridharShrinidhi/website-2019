@@ -8,27 +8,9 @@ html {
 
 .nav {
   position: fixed;
+  z-index: 100;
 }
 /* #fcbe96 ffeadd */
-
-/* Syne Wide Medium */
-/* .syne-wide {
-  font-family: titling-gothic-fb-wide, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.syne-wide-regular {
-  font-family: titling-gothic-fb-wide, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.freight-text {
-  font-family: freight-text-pro, serif;
-  font-weight: 400;
-  font-style: normal;
-} */
 
 .termina-regular {
   font-family: termina,sans-serif;
@@ -43,8 +25,10 @@ html {
 }
 
 .termina-demi {
-  font-family: rhode-extended,sans-serif;
-  font-weight: 600;
+  font-family: rhode, sans-serif;
+  font-weight: 500;
+  /* font-family: rhode-extended,sans-serif;
+  font-weight: 600; */
   font-style: normal;
 }
 
@@ -95,7 +79,7 @@ h1 {
 
 .scroll-rtl {
   animation-name: running-footer1;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-timing-function: linear;
@@ -103,7 +87,7 @@ h1 {
 
 .scroll-ltr {
   animation-name: running-footer2;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-timing-function: linear;
@@ -126,7 +110,26 @@ h1 {
       transform: translateX(100%);
   }
   100% {
-      transform: translateX(-20%);
+      transform: translateX(20%);
   }
 
+}
+
+.arrow-next {
+  position: absolute;
+  right: 10%;
+}
+
+.button {
+  background-color: #3131ff;
+  border: 2px transparent solid;
+  border-radius: 48px;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #fff;
+  border: 2px #3131ff solid;
+  border-radius: 48px;
+  color: #3131ff;
 }

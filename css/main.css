@@ -1,5 +1,5 @@
 html {
-  background-color: #ffeadd;
+  background-color: #f5f3eb;
 }
 
 .white {
@@ -12,18 +12,6 @@ html {
 }
 /* #fcbe96 ffeadd */
 
-.termina-regular {
-  font-family: termina,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.termina-heavy {
-  font-family: termina,sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
 .termina-demi {
   font-family: rhode, sans-serif;
   font-weight: 500;
@@ -33,25 +21,18 @@ html {
 }
 
 .freight-big {
-  font-family: kepler-std-subhead,serif;
+  font-family: miller-banner, serif;
+  /* font-family: orpheuspro, serif; */
+  /* font-family: "Cormorant Garamond", serif; */
+  /* font-family: kepler-std-subhead,serif; */
   /* font-family: plantin, sans-serif; */
   font-weight: 400;
   font-style: normal;
 }
 
-.plantin-italic {
-  font-family: plantin, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
 a {
   text-decoration: none;
   color: #3131ff;
-}
-
-a:hover {
-  cursor: url(finger.cur), auto;
 }
 
 .nav {

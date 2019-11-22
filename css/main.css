@@ -140,3 +140,20 @@ h1 {
 .nav ul li a:hover .hover {
   display: inline-block;
 }
+
+.center .img-flex {
+  width: 100vh;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+.flickity-prev-next-button {
+  background: transparent;
+}
+
+.flickity-button:hover {
+  outline: none;
+  color: #000;
+}

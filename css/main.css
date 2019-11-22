@@ -133,3 +133,10 @@ h1 {
   border-radius: 48px;
   color: #3131ff;
 }
+
+.hover {
+  display: none;
+}
+.nav ul li a:hover .hover {
+  display: inline-block;
+}
